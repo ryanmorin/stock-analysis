@@ -1,7 +1,7 @@
 # Refactor VBA code and Measure Performance
 
 ## Overview of Project
-The project uses daily stock data to calculate the total volume and performance for 12 companies. The stocks are identified by their 4 character ticker symbol. The script also performs some formating identifying those stocks that had positive performance in green, and negative performance in red. The goal of the project is to make the [AllStocksAnalysis](https://github.com/ryanmorin/stock-analysis/blob/main/AllStockAnalysis) code developed in Module 2 run faster by making some changes.
+The project uses daily stock data to calculate the total volume and performance for 12 companies. The stocks are identified by their 4 character ticker symbol. The script also performs some formating; identifying those stocks that had positive performance in green, and negative performance in red. The goal of the project is to make the [AllStocksAnalysis](https://github.com/ryanmorin/stock-analysis/blob/main/AllStockAnalysis) code developed in Module 2 run faster by making some changes.
 
 ### Purpose
 Reducing the code run time will make the program more useful because it will run faster on larger data sets without reducing the output. This can be accomplished by eliminating one of the 'For' loops and replacing it with arrays.
@@ -22,7 +22,7 @@ For j = 0 To 11
    For i = rowStart To rowEnd
 ```
 
-We can reduce the number of 'For' loops used and thereby the amonut of time needed to run the script by replacing the 'For' loop with arrays. Once the remaining loop is finished running, the stock calculations can be performed on the data stored in the arrays. This change will reduce the number of rows that VBA needs to process from 36,000 to 3012.
+We can reduce the number of 'For' loops used and thereby the amount of time needed to run the script by replacing the 'For' loop with arrays. Once the remaining loop is finished running, the stock calculations can be performed on the data stored in the arrays. This change will reduce the number of rows that VBA needs to process from 36,000 to 3012.
 
 The same section of code as above deleting the nested for loop and adding 3 new arrays:
 
