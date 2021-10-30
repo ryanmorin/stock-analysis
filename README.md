@@ -58,7 +58,7 @@ Deleting the for loop and replacing it with arrays, reduced the run time for the
 
 ![2017_refactored_run_time](https://github.com/ryanmorin/stock-analysis/blob/main/Resources/refactored_2017_run_time.png)
 
-After the changes to the code the refactored code ran 75% faster compared to the original. The output was unchanged.  See the side by side comparison below.
+After the changes, the refactored code ran 75% faster compared to the original. The output was unchanged.  See the side by side comparison below.
 
 ![2017_comparison](https://github.com/ryanmorin/stock-analysis/blob/main/2017_comparison.png)
 
@@ -72,7 +72,7 @@ After the changes to the code the refactored code ran 75% faster compared to the
 
 ![2018_refactored_run_time](https://github.com/ryanmorin/stock-analysis/blob/main/Resources/refactored_2018_run_time.png)
 
-After the changes to the code the refactored code ran 76% faster compared to the original. The output was unchanged.  See the side by side comparison below.
+After the changes, the refactored code ran 76% faster compared to the original. The output was unchanged.  See the side by side comparison below.
 
 ![2018_comparison](https://github.com/ryanmorin/stock-analysis/blob/main/2018_comparison.png)
 
