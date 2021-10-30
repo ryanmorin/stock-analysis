@@ -83,7 +83,7 @@ Sub AllStocksAnalysis()
     Range("A3:C3").Font.Background = xlBackgroundTransparent
     Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
     Range("B4:B15").NumberFormat = "#,##0"
-    Range("C4:C15").NumberFormat = "0.0000%"
+    Range("C4:C15").NumberFormat = "0.00%"
     Columns("B:C").AutoFit
     
     startRow = 4
